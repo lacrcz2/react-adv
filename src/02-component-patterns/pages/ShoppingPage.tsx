@@ -4,7 +4,6 @@ import { useShoppingCart } from '../hooks/useShoppingCart';
 import { products } from '../data/products';
 import '../styles/custom-styles.css';
 
-
 export const ShoppingPage = () => {
 
     const { shoppingCart, onProductCountChange } = useShoppingCart();
